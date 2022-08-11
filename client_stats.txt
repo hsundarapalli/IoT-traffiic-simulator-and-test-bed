@@ -1,0 +1,3 @@
+Average request processing time = 0.09428286552429199
+Maximum request processing time = 0.19435596466064453
+Minimum request processing time = 0.08758902549743652

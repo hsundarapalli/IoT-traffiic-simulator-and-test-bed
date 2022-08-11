@@ -1,0 +1,38 @@
+{
+	"server_config"   : {
+		"ip"                          : "localhost",
+		"port"                        : 6590,
+		"pool_type"                   : 0,
+		"multiprocessed"              : "True",
+		"multithreaded"               : "False",
+		"no_of_workers"               : 10,
+		"logfile_base"                : "server",
+		"simulation_time"             : 10
+
+	},
+
+	"client_config"   : {
+		"server_ip"                   : "localhost",
+		"server_port"                 : 6590,
+		"logfile_base"                : "client",
+		"mode"                        : "manual",
+		"traffic"                     : "periodic",
+		"periodicity"                 : 0.01,
+		"simulation_time"             : 10
+	},
+
+	"client_analysis_list"   :{
+		"average_time"                : "yes",
+		"maximum_time"                : "yes",
+		"minimum_time"                : "yes"
+	},
+
+	"server_analysis_list"   :{
+
+		"no_of_clients_connected"     : "yes",
+		"total_no_of_requests"        : "yes",
+		"incoming_request_rate"       : "yes",
+		"processing_rate"             : "yes"
+	}
+
+}

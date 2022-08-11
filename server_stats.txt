@@ -1,0 +1,4 @@
+Number of clients connected      = 1
+Number of requests came          = 95
+Incomming request rate           = 9.5
+request processing rate          = 9.4
